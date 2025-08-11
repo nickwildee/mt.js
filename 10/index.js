@@ -9,6 +9,15 @@
 
 function getGrade(score) {
   // 이곳에 코드를 작성합니다.
+  return 90 < score
+    ? "A"
+    : 80 < score
+    ? "B"
+    : 70 < score
+    ? "C"
+    : 60 < score
+    ? "D"
+    : "F";
 }
 
 console.log(getGrade(85)); // "B"가 출력되어야 함

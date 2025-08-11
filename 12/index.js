@@ -2,6 +2,7 @@
 
 function removeDuplicatesAndSort(arr) {
   // 이곳에 코드를 작성합니다.
+  return [...new Set(arr)].sort((a, b) => a - b);
 }
 
 console.log(removeDuplicatesAndSort([3, 1, 4, 1, 5, 9, 2, 6, 5]));

@@ -3,6 +3,7 @@ const scores = [85, 92, 78, 96, 88];
 
 function getAverage(scoreArray) {
   // 이곳에 코드를 작성합니다.
+  return scoreArray.reduce((acc, cur) => acc + cur, 0) / scores.length;
 }
 
 console.log(getAverage(scores)); // 87.8이 출력되어야 함

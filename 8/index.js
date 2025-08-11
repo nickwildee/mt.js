@@ -2,6 +2,7 @@
 
 function findMax(numbers) {
   // 이곳에 코드를 작성합니다.
+  return Math.max(...numbers);
 }
 
 console.log(findMax([3, 7, 2, 9, 1])); // 9가 출력되어야 함
